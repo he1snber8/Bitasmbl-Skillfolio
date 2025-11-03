@@ -1,0 +1,1 @@
+// src/components/Skills.jsx\nimport React, { useState } from "react";\nfunction Skills() {\n  const [skills] = useState(["React", "Tailwind CSS", "JavaScript"]);\n  return (<ul className="mt-4 space-y-2">{skills.map(s => <li key={s} className="p-2 bg-white rounded shadow">{s}</li>)}</ul>);\n}\nexport default Skills;
