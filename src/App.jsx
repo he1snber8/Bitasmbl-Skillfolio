@@ -1,0 +1,1 @@
+// src/App.jsx\nimport React from "react";\nimport Header from "./components/Header";\nimport Skills from "./components/Skills";\nfunction App() {\n  return (\n    <div className="min-h-screen p-4 bg-gray-100">\n      <Header />\n      <Skills />\n    </div>\n  );\n}\nexport default App;
