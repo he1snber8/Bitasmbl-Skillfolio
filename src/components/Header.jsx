@@ -1,0 +1,1 @@
+// src/components/Header.jsx\nimport React from "react";\nfunction Header() {\n  return (<header><h1 className="text-3xl font-bold">My Portfolio</h1></header>);\n}\nexport default Header;
